@@ -1,17 +1,183 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      
-    </style>
-  </head>
-  <body>
-    <iframe id="iframe1" name="iframe1" src="bubble1.html" width="70%" height="800px" frameBorder="0">
-      
-    </iframe>
-    
-    <iframe id="iframe2" name="iframe2" src="table.html" width="100%" height="800px" frameBorder="0">
-      
-    </iframe>
-  </body>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="/tractor.ico" />
+  
+  <title>Farming4Climate - mapping evidence on the impacts of arable farming on GHG emissions</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+  
+  <style>
+  
+  svg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+    video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+div .para {
+  position: relative;
+  top:10%;
+  width: 100%;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://github.com/insectconservation/farming4climate.github.io/blob/master/img/background.png') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="methods.html">Methods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="results.html">Results</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+<header>
+  <div class="overlay" align=center></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="img/tractor.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3"><b>Farming4Climate</b></h1><br>
+        <p class="lead mb-0"><b>A project to map the evidence on temperate<br>
+        arable farming and greenhouse gas emissions</b></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 mx-auto">
+        <div class="para">
+          <h1>How does farming affect greenhouse gas emissions?</h1>
+          <p>Reducing the emissions of greenhouse gases (carbon dioxide, methane and nitrous oxide) is vital for fighting climate change and meeting international goals to reduce the impacts of climate change. Farming accounts for about 11% of total greenhouse gas emissions. However, we don't conclusively know how farming practices on arable land affect the release of greenhouse gases: lots of research studies have been conducted on various aspects of the problem, but as yet, no comprehensive synthesis of these findings has been made. Practical advice for farmers is often very vague, and there is often a lack of knowledge about how local conditions (like soil types) affect the process.</p>
+          <p>This project aims to fill this knowledge gap by mapping the research evidence on the topic using state-of-the-art, rigorous research methods, known as <a href="https://environmentalevidencejournal.biomedcentral.com/articles/10.1186/s13750-016-0059-6" target="_blank">systematic mapping</a>.</p>
+          <p>Following a transparent, comprehensive and rigorous <a href="methods.html" target="_blank">preplanned method</a> we have searched for, collated and synthesised all of the available evidence on the impacts of in-field arable farming practices on greenhouse gas fluxes across temperate regions.</p>
+          <br>
+          <p>To read more about the project background, funding and team, <a href="about.html">click here.<img src="" width="50%"></a></p>
+          <p>To read more about our methods, <a href="methods.html">click here.<img src="img/methods.png" width="50%"></a></p>
+          <p>To learn more about our findings and to explore the evidence map, <a href="results.html" target="">click here</a>.</p>
+          <p>To contact us, <a href="contact.html">click here</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p class="copyright text-muted">Copyright &copy; <a href="https://twitter.com/nealhaddaway" target="_blank">Neal Haddaway</a> 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
 </html>
