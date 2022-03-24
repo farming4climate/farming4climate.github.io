@@ -60,6 +60,13 @@
       padding: 100px 20px;
       height: 100%;
     } 
+    
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
   </style>
 
 </head>
@@ -129,7 +136,7 @@
       <div class="col-lg-12 col-md-10 mx-auto">
         <h1>Evidence atlas</h1>
         <p>This map displays the location of each study included in the map. You can zoom in to see more detail where studies are clustered together, and read a preview of the studies' meta-data in the popups by clicking on a point.</p>
-        <iframe src="results/evidence_atlas.html" id="iframe1" name="iframe1" width = 100% height="1000px" frameBorder="0"></iframe>
+        <iframe src="results/eviatlas.html" id="iframe1" name="iframe1" width = 80% height="1000px" frameBorder="0" class="center"></iframe>
       </div>
     </div>
   </div>
@@ -139,7 +146,7 @@
       <div class="col-lg-12 col-md-10 mx-auto">
         <h1>Map database</h1>
         <p></p>
-        <iframe src="results/table.html" id="iframe2" name="iframe2" width = 100% height="1000px" frameBorder="0"></iframe>
+        <iframe src="results/table.html" id="iframe2" name="iframe2" width = 80% height="1000px" frameBorder="0" class="center"></iframe>
       </div>
     </div>
   </div>
@@ -150,7 +157,7 @@
       <div class="col-lg-12 col-md-10 mx-auto">
         <h1>Descriptive plots</h1>
         <p></p>
-        <iframe src="results/plots.html" id="iframe3" name="iframe3" width = 100% height="1000px" frameBorder="0"></iframe>
+        <iframe src="results/descriptive.html" id="iframe3" name="iframe3" width = 80% height="1000px" frameBorder="0" class="center"></iframe>
       </div>
     </div>
   </div>
@@ -161,23 +168,13 @@
       <div class="col-lg-12 col-md-10 mx-auto">
         <h1>Heat maps</h1>
         <p></p>
-        <iframe src="results/bubble1.html" id="iframe4" name="iframe4" width = 100% height="1000px" frameBorder="0"></iframe>
+        <img src="results/bubble1.png" width = "100%" class="center">
       </div>
     </div>
   </div>
   
 
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <p class="copyright text-muted">Copyright &copy; <a href="https://twitter.com/nealhaddaway" target="_blank">Neal Haddaway</a> 2020</p>
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
